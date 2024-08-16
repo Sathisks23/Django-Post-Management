@@ -1,0 +1,16 @@
+
+{% extends 'header.html' %}
+
+{% block content %}
+{% load static %}
+
+<div class="singlepostview">
+   
+    <div class="title"> <h3>{{post.title}}</h3> <p class="date">{{ post.created_at|date:"F j,Y" }}</p> </div>
+    <div class="Imagewrapper"> <img src="{{post.img_url}}" alt=""></div>
+    <div class="content">
+        <p>{{post.content}}</p>
+    </div>
+    
+</div>
+{% endblock %}

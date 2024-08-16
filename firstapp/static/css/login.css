@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgb(214, 214, 214);
+}
+
+
+form{
+    background-color:rgba(201, 206, 212, 0.973);
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin:100px auto;
+    border-radius:50px;
+}
+.container>*>*{
+    padding: 10px;
+}
+
+#login{
+    padding:2px 15px;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 20px;
+}
+
+form>div>input{
+
+    border: none;
+    padding: 2px;
+    border-radius:10px;
+}

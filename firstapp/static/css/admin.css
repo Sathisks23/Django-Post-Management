@@ -1,0 +1,74 @@
+
+body{
+    background-color: rgb(214, 214, 214);
+    margin:0;
+    padding: 0;
+}
+
+.categoryForm>*{
+    padding: 10px;
+}
+
+.FunctionContainer{
+    margin-top: 10px;
+    padding: 10px;
+   
+    border-radius: 30px;
+    display: flex;
+    gap: 30px;
+}
+.categoryForm{
+    height: 150px;
+    width: 20%;
+}
+.categoryForm,.categoryForm>*>*{
+    padding: 3px;
+}
+#CategorySubmit{
+    width: 100px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+#PostSubmit{
+   background-color: green;
+   color: white;
+   padding: 8px;
+   border-radius: 20px;
+   border: none;
+   cursor: pointer;
+
+}
+.postContainer,.categoryForm{
+    background-color:rgba(201, 206, 212, 0.973);
+    margin-top: 5px;
+}
+
+.postContainer{
+    width: 50%;
+}
+
+.postContainer,.postContainer>*{
+    padding: 10px;
+
+}
+.postContainer>*>*{
+    padding: 10px;
+    width: 100%;
+}
+
+#description{
+    width: 50%;
+    height: 40px;
+}
+
+.dashboard{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}

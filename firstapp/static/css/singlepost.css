@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(214, 214, 214);
+    margin:0;
+    padding: 0;
+}
+.singlepostview{
+    width: 90%;
+    margin: 10px auto;
+    background-color:rgba(218, 220, 223, 0.973);
+
+}
+
+.singlepostview>*{
+    padding: 10px;
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
